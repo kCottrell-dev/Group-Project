@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.text.Text;
+
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -160,8 +161,6 @@ public class Controller implements Initializable
     @FXML
     private void submitOrder()
     {
-        String veggieString = "";
-
         // Add all checkboxes to arrayList
         veggiesBoxes.add(tomatoBox);
         veggiesBoxes.add(oliveBox);
@@ -194,26 +193,37 @@ public class Controller implements Initializable
         RadioButton pepperButton = (RadioButton) pepperToggleGroup.getSelectedToggle();
         String pepperChoice = pepperButton.getText();
 
+        // Array to hold veggies
+        ArrayList<String> vegetables = new ArrayList<String>();
+
         // Loop through arrayList
-        for (CheckBox cb : veggiesBoxes)
+        for (int i = 0; i < veggiesBoxes.size(); i++)
         {
             // If checkbox is selected
-            if (cb.isSelected())
+            if (veggiesBoxes.get(i).isSelected())
             {
-                // Append its string value to the veggie string builder
-                veggieString += cb.getText() + " ";
+                // Append its string value veggies array
+                vegetables.add(veggiesBoxes.get(i).getText());
             }
         }
 
-        // Set display text to reflect users order
-        sizeDisplay.setText(sandwichSize);
-        breadDisplay.setText(breadChoice);
-        cheeseDisplay.setText(cheeseChoice);
-        meatDisplay.setText(meatChoice);
-        sauceDisplay.setText(sauceChoice);
-        saltDisplay.setText(saltChoice);
-        pepperDisplay.setText(pepperChoice);
-        veggiesDisplay.setText(veggieString);
+        // Create Subway object
+        Subway subway = new Subway(sandwichSize, breadChoice, meatChoice, cheeseChoice, sauceChoice, vegetables, saltChoice, pepperChoice);
 
+        // Set display text to reflect users order
+        sizeDisplay.setText(subway.getSize());
+        breadDisplay.setText(subway.getBread());
+        cheeseDisplay.setText(subway.getCheese());
+        meatDisplay.setText(subway.getMeat());
+        sauceDisplay.setText(subway.getSauce());
+        saltDisplay.setText(subway.getSalt());
+        pepperDisplay.setText(subway.getPepper());
+
+        // Loop through vegetable array and add string value to vegetable string
+        String vegetableString = "";
+        for (String vegetable : subway.getVegetables()) {
+            vegetableString += vegetable + " ";
+            veggiesDisplay.setText(vegetableString);
+        }
     }
 }
