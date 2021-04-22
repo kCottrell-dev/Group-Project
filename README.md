@@ -1,6 +1,15 @@
-# Project Title
+# Subway Ordering System
 
-One Paragraph of project description goes here
+T heapplication will be an automated Ordering System for Subway. It will use a GUI to interact with the user. A user chooses:
+
+Size of sandwich
+Type of bread
+Type of meat
+Type of cheese
+Up to three veggies
+Type of Sauce
+Salt & Pepper (Y/N)
+A summary display shows all of the options chosen by the user.
 
 ## Example Output
 
@@ -10,8 +19,9 @@ This image will display as your example output. Name the image README.jpg in you
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+We analyzed the requirements by looking at the list given to us on the canvas page. We know that
+we need to create a GUI and to create various functions to make our program function like a subway ordering system
+we have to use multiple different javafx functions in order to build this project.
 
 ### Design
 
