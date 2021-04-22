@@ -11,6 +11,9 @@ Type of Sauce
 Salt & Pepper (Y/N)
 A summary display shows all of the options chosen by the user.
 
+Basically we are creating an order system similiar to a system used by Subway
+on the online ordering website.
+
 ## Example Output
 
 
