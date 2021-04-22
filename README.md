@@ -21,7 +21,7 @@ This image will display as your example output. Name the image README.jpg in you
 
 We analyzed the requirements by looking at the list given to us on the canvas page. We know that
 we need to create a GUI and to create various functions to make our program function like a subway ordering system
-we have to use multiple different javafx functions in order to build this project.
+we have to use multiple different javafx functions in order to build this project while we also used scenebuilder
 
 ### Design
 
