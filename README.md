@@ -52,6 +52,23 @@ End with an example of getting some data out of the system or using it for a lit
 ## Notes
 
 Testing instructions: 
+Step 1: User will select bread size.
+![bread size](https://user-images.githubusercontent.com/63605640/115654688-40a35580-a2f7-11eb-8364-7b54a62292be.JPG)
+Step 2: User will select the bread choice of their desire.(Italian, White, Wheat)
+Step 3: User will select sandwhich meat for sandwhich.(Peperoni, Turkey, Ham)
+Step 4: User will select cheese type. (American, Colby Jack, Cheddar)
+Step 5: User selects sauce of their choice. (Ranch, Italian, Mayonnaise)
+Step 6: User will select up to 3 veggie choices from our selection to add to sandwhich.
+![veggies](https://user-images.githubusercontent.com/63605640/115655052-06868380-a2f8-11eb-85a8-efa0312e51e6.JPG)
+Step 7: User will select if they want Salt and/or Pepper by selecting yes or no.
+![seasonings](https://user-images.githubusercontent.com/63605640/115655129-3d5c9980-a2f8-11eb-897e-6ca4999e1a16.JPG)
+Step 8: User will submit their order via submit button and recieve a Order Summary at the bottom of the page showing all of their selections for their sandwhich.
+![summary](https://user-images.githubusercontent.com/63605640/115655302-a512e480-a2f8-11eb-9cb1-c8af87f87f46.JPG)
+![subway](https://user-images.githubusercontent.com/63605640/115655315-ab08c580-a2f8-11eb-92ba-2359ce5cfcf0.JPG)
+
+(The Order Form will not allow user to submit without choosing atleast one selection from each option.)
+
+
 
 ## Do not change content below this line
 ## Adapted from a README Built With
