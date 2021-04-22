@@ -25,8 +25,7 @@ we have to use multiple different javafx functions in order to build this projec
 
 ### Design
 
-We used two classes the main one that displays the scene and another one that was build into scenebuilder
-where we all wrote our functions to make the program work.
+
 
 ```
 Give examples
