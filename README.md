@@ -1,6 +1,6 @@
 # Subway Ordering System
 
-T heapplication will be an automated Ordering System for Subway. It will use a GUI to interact with the user. A user chooses:
+The application will be an automated Ordering System for Subway. It will use a GUI to interact with the user. A user chooses:
 
 Size of sandwich
 Type of bread
@@ -25,7 +25,8 @@ we have to use multiple different javafx functions in order to build this projec
 
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
+We used two classes the main one that displays the scene and another one that was build into scenebuilder
+where we all wrote our functions to make the program work.
 
 ```
 Give examples
@@ -51,7 +52,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Notes
 
-Explain any issues or testing instructions.
+Testing instructions: 
 
 ## Do not change content below this line
 ## Adapted from a README Built With
