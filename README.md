@@ -64,7 +64,8 @@ Step 7: User will select if they want Salt and/or Pepper by selecting yes or no.
 ![seasonings](https://user-images.githubusercontent.com/63605640/115655129-3d5c9980-a2f8-11eb-897e-6ca4999e1a16.JPG)
 Step 8: User will submit their order via submit button and recieve a Order Summary at the bottom of the page showing all of their selections for their sandwhich.
 ![summary](https://user-images.githubusercontent.com/63605640/115655302-a512e480-a2f8-11eb-9cb1-c8af87f87f46.JPG)
-![subway](https://user-images.githubusercontent.com/63605640/115655315-ab08c580-a2f8-11eb-92ba-2359ce5cfcf0.JPG)
+![final](https://user-images.githubusercontent.com/63605640/115655461-f9b65f80-a2f8-11eb-89f2-2e3b23dc0483.JPG)
+
 
 (The Order Form will not allow user to submit without choosing atleast one selection from each option.)
 
