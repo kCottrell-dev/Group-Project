@@ -13,7 +13,6 @@ A summary display shows all of the options chosen by the user.
 
 ## Example Output
 
-This image will display as your example output. Name the image README.jpg in your project folder.
 
 ![Sample Output](README.jpg)
 
@@ -25,10 +24,13 @@ we have to use multiple different javafx functions in order to build this projec
 
 ### Design
 
-
-
 ```
-Give examples
+public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Sandwich order");
+        primaryStage.setScene(new Scene(root, 800, 800));
+        primaryStage.show();
+    }
 ```
 
 ### Testing
@@ -47,7 +49,9 @@ And repeat
 until finished
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+You can use it for a little demo as to what an ordering system would look like
+online. You can get information on how they program their online ordering, this
+help you in the future programming systems that order.
 
 ## Notes
 
