@@ -73,10 +73,10 @@ public class Controller implements Initializable
     private ChoiceBox<String> sauceChoiceBox;
 
     // Arrays to hold choiceBox values
-    private final String[] breadChoices = {"white", "wheat", "italian"};
-    private final String[] cheeseChoices = {"american", "colby jack", "cheddar"};
-    private final String[] meatChoices = {"ham", "peperoni", "turkey"};
-    private final String[] sauceChoices = {"italian", "ranch", "mayonnaise"};
+    private final String[] breadChoices = {"White", "Wheat", "Italian"};
+    private final String[] cheeseChoices = {"American", "Colby Jack", "Cheddar"};
+    private final String[] meatChoices = {"Ham", "Peperoni", "Turkey"};
+    private final String[] sauceChoices = {"Italian", "Ranch", "Mayonnaise"};
 
     // Sets to hold the unselected and selected veggie check boxes
     private ArrayList<CheckBox> veggiesBoxes = new ArrayList<CheckBox>();
